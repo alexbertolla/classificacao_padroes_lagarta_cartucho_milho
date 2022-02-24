@@ -6,7 +6,8 @@
 
 
 
-MÉTODO PARA CLASSIFICAÇÃO DE PADRÕES DA LAGARTA DO CARTUCHO (Spodoptera frugiperda) NA CULTURA DO MILHO BASEADO EM PROCESSAMENTO DE IMAGENS DIGITAIS E APRENDIZADO DE MÁQUINA
+                                                MÉTODO PARA CLASSIFICAÇÃO DE PADRÕES DA LAGARTA DO CARTUCHO (Spodoptera frugiperda) 
+                                          NA CULTURA DO MILHO BASEADO EM PROCESSAMENTO DE IMAGENS DIGITAIS E APRENDIZADO DE MÁQUINA
 
                                                                               ALEX BISETTO BERTOLLA
 
