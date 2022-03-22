@@ -4,7 +4,7 @@ import cv2 as cv
 from PreProcessamento import PreProcessamento
 from Segmentar import Segmnetar
 from ExtrairCaracteristica import ExtrairCaracteristica
-
+from Classificadores import Classificadores
 
 
 if __name__ == '__main__':
@@ -34,5 +34,8 @@ if __name__ == '__main__':
             vetor_caracteristicas_pca = extraca_cartacteristicas.aplicarPCA(vetor_caracteristicas, 1)
             extraca_cartacteristicas.salvarVetorCaracteristica(vetor_caracteristicas_pca, arquivo,
                                                                './caracteristicas_pca/')
+
+            classificador1 = Classificadores()
+            classificador1.classificarEstagio1(vetor_caracteristicas_pca)
 
             exit('FIM')
